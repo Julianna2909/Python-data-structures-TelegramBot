@@ -20,7 +20,7 @@ def quiz(message):
             bot.send_message(message.chat.id, TelegramBotToken.comments[TelegramBotToken.counter])
             TelegramBotToken.counter += 1
         else:
-            bot.send_message(message.chat.id, "try again")
+            bot.send_message(message.chat.id, "Спробуй знову, не здавайся с:")
 
         if(TelegramBotToken.counter >= len(TelegramBotToken.questions)):
             congrat(message)
@@ -28,7 +28,7 @@ def quiz(message):
             bot.send_message(message.chat.id, TelegramBotToken.questions[TelegramBotToken.counter])
 
 def congrat(message):
-    bot.send_message(message.chat.id, "ну і всьо")
+    bot.send_message(message.chat.id, "Вітаю, ти чудово впорався")
     sticker = open('/home/julianna/KYPCOBA/sticker.webp', 'rb')
     bot.send_sticker(message.chat.id, sticker)
 
