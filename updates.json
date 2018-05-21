@@ -1,0 +1,28 @@
+{
+  "ok": true,
+  "result": [
+    {
+      "message": {
+        "date": 1524419767,
+        "message_id": 3,
+        "text": "hi",
+        "from": {
+          "is_bot": false,
+          "username": "JuliAnna29",
+          "last_name": "Kalynych",
+          "language_code": "ru-UA",
+          "id": 324686616,
+          "first_name": "Julianna"
+        },
+        "chat": {
+          "username": "JuliAnna29",
+          "last_name": "Kalynych",
+          "id": 324686616,
+          "type": "private",
+          "first_name": "Julianna"
+        }
+      },
+      "update_id": 926213406
+    }
+  ]
+}
